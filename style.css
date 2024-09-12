@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+header .cart-icon {
+    position: relative;
+    width: 24px; /* Make sure the cart icon width is specified */
+    height: 24px; /* Make sure the cart icon height is specified */
+}
+
+header .cart-icon img {
+    width: 100%; /* This makes the image fill the .cart-icon container */
+    display: block;
+}
+
+header .cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hero {
+    height: 100vh;
+    background:rosybrown;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .hero-text {
+    color: white;
+    z-index: 2;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background: #FF6347;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.hero .btn:hover {
+    background: #ff4500;
+}
